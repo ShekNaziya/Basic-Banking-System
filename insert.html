@@ -1,0 +1,87 @@
+<html>
+<head>
+<title>UserInformation</title>
+    <style>
+        body{
+background-image: url("user.png");
+background-size: cover;
+            text-align: center;
+        }
+        ul {
+    list-style-type: none;
+    margin:0%;
+    padding:0;
+    overflow:hidden;
+    background-color: cornflowerblue;
+    text-align: center;
+}
+li{
+    float:left;
+    font-size:20px;
+}
+li a{
+    font-family: lato;
+    float: left
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 10px;
+    width:30%;
+    text-decoration: none;  
+}
+li a:hover{
+    background-color:palegreen;
+    color: blue;
+  }
+  {
+  box-sizing: border-box;
+}
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  font-family: inherit;
+  color:purple;
+}
+h1{
+    color:Red;
+}
+    </style>
+</head>
+<body>
+    <ul>
+      <li><a href="login.html">Home</a></li>
+      <li><a href="insert.html">Enter Customers Details</a></li>
+      <li><a href="Userdetails.php">View Customers</a></li>
+      <li><a href="money.html">Credit Money</a></li>
+      <li><a href="transfer.php">Current transcation History</a></li>
+
+      </ul>
+    <br>
+    <br>
+    <br>
+    <h1>USER INFORMATION</h1>
+<center>
+    <form action="insert.php" method="POST">
+<table  width="300" height="150">
+<tr>
+    <td><label for="UserName" name="UserName">UserName</label></td>
+     <td><input type="text" name="UserName"></td>
+</tr>
+<tr> 
+     <td><label for="Email" name="Email">Email</label></td>
+     <td><input type="text" name="Email"></td>
+</tr>
+<tr>
+     <td><label for="MobileNumber" name=MobileNumber">MobileNumber</label></td>
+     <td><input type="text" name="MobileNumber"></td>
+</tr>
+<tr>
+     <td><label for="AmountDeposit" name="AmountDeposit">AmountDeposit</label></td>
+     <td><input type="text" name="AmountDeposit"></td>
+</tr>
+<tr><td colspan="10"><center><input type="submit" name="submit" value="submit"></td></center></tr>
+</table>
+</form>
+</center>
+</body>
+</html> 
